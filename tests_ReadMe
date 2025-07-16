@@ -1,0 +1,16 @@
+CS9D2:Software Reliability and Testing.
+Battleship game console application - Part 2
+=======================================================
+
+Instructions to run the Battleship game Test Code:
+1. Access DCS account remotely via Visual Studio Code SSH.
+2. From Visual Studio Code command prompt point at the project directory "\Code_5591020\Part2_battleship-game".
+	- Ensure command line is pointing to [u5591020@emu-04 Part2_battleship-game]$
+3. To create a virtual environment and install all the required libraries run the commands
+	3.1. Run: chmod +x setup.sh
+	3.2. Run: ./setup.sh
+4. Activate the virtual environment by running: 
+	4.1. Run: source vlab/bin/activate
+7. Ensure the command line is pointing to [u5591020@emu-04 Part2_battleship-game]$
+8. Run the tests via the command line:
+	8.1. Run: python3 -m pytest 
